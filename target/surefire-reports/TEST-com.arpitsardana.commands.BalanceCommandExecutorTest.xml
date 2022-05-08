@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.arpitsardana.commands.BalanceCommandExecutorTest" time="0.046" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.arpitsardana.commands.BalanceCommandExecutorTest" time="0.055" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/arpit.sardana/Desktop/DSA/CodeBase/ledger-co"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/arpit.sardana/Desktop/DSA/CodeBase/ledger-co/LedgerCo"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/arpit.sardana/Desktop/DSA/CodeBase/ledger-co"/>
+    <property name="user.dir" value="/Users/arpit.sardana/Desktop/DSA/CodeBase/ledger-co/LedgerCo"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -42,9 +42,10 @@
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="arpit.sardana"/>
     <property name="java.class.path" value="/Users/arpit.sardana/Downloads/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="error"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -q assembly:single"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,7 +62,7 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testInvalidCommand" time="0.008"/>
-  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testValidCommand" time="0.001"/>
-  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testOutput" time="0.037"/>
+  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testInvalidCommand" time="0.027"/>
+  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testValidCommand" time="0"/>
+  <testcase classname="com.arpitsardana.commands.BalanceCommandExecutorTest" name="testOutput" time="0.028"/>
 </testsuite>

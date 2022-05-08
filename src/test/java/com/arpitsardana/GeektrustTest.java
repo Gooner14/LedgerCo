@@ -2,9 +2,8 @@ package com.arpitsardana;
 
 import static org.junit.Assert.assertEquals;
 
-import com.arpitsardana.exception.InvalidCommandException;
 import com.arpitsardana.exception.InvalidModeException;
-import java.io.ByteArrayInputStream;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +12,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MainTest {
+public class GeektrustTest {
   private InputStream sysInBackup;
   private PrintStream sysOutBackup;
   private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -38,19 +37,19 @@ public class MainTest {
             + "IDIDI Dale 3652 4\n"
             + "UON Shelly 15856 3\n"
             + "MBI Harry 9044 10\n";
-    Main.main(new String[] {"file_input.txt"});
+    Geektrust.main(new String[] {"file_input.txt"});
     assertEquals(expectedOutput, outContent.toString());
   }
 
   @Test
   public void testFileModeWithInvalidFile() throws IOException {
     final String expectedOutput = "Invalid file given.\n";
-    Main.main(new String[] {"some_random_file.txt"});
+    Geektrust.main(new String[] {"some_random_file.txt"});
     assertEquals(expectedOutput, outContent.toString());
   }
 
   @Test(expected = InvalidModeException.class)
   public void testInvalidMode() throws IOException {
-    Main.main(new String[] {"file_input.txt", "some-other-input"});
+    Geektrust.main(new String[] {"file_input.txt", "some-other-input"});
   }
 }

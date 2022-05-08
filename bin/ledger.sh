@@ -4,7 +4,7 @@ SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
 cd "${SCRIPT_DIR}"
 cd ..
 
-JAR_RELATIVE_PATH=target/ledger-co-1.0-SNAPSHOT.jar
+JAR_RELATIVE_PATH=target/geektrust-problems-1.0.jar
 
 if [ -z "$1" ] ; then
         java -jar $JAR_RELATIVE_PATH

@@ -6,7 +6,7 @@ import com.arpitsardana.mode.FileMode;
 import com.arpitsardana.service.LedgerService;
 import java.io.IOException;
 
-public class Main {
+public class Geektrust {
   public static void main(final String[] args) throws IOException {
     final OutputPrinter outputPrinter = new OutputPrinter();
     final LedgerService ledgerService = new LedgerService();

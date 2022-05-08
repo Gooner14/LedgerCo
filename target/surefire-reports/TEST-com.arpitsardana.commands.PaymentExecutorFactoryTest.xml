@@ -62,6 +62,6 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.arpitsardana.commands.PaymentExecutorFactoryTest" name="testInvalidCommand" time="0.197"/>
-  <testcase classname="com.arpitsardana.commands.PaymentExecutorFactoryTest" name="testValidCommand" time="0.001"/>
+  <testcase classname="com.arpitsardana.commands.PaymentExecutorFactoryTest" name="testInvalidCommand" time="0.198"/>
+  <testcase classname="com.arpitsardana.commands.PaymentExecutorFactoryTest" name="testValidCommand" time="0"/>
 </testsuite>

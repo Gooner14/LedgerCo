@@ -8,6 +8,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
+
+import com.arpitsardana.exception.InvalidNumberOfUserAccountsException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,7 +33,7 @@ public class GeektrustTest {
   }
 
   @Test
-  public void testFileMode() throws IOException {
+  public void testMultiplUsersSameNameBank() throws IOException {
     final String expectedOutput =
         "IDIDI Dale 1326 9\n"
             + "IDIDI Dale 3652 4\n"
@@ -39,6 +41,11 @@ public class GeektrustTest {
             + "MBI Harry 9044 10\n";
     Geektrust.main(new String[] {"file_input.txt"});
     assertEquals(expectedOutput, outContent.toString());
+  }
+
+  @Test(expected = InvalidNumberOfUserAccountsException.class)
+  public void testFileMode() throws IOException {
+    Geektrust.main(new String[] {"file_input_multiple_users.txt"});
   }
 
   @Test

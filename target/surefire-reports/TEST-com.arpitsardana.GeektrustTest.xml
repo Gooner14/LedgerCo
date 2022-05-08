@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.arpitsardana.GeektrustTest" time="0.015" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.arpitsardana.GeektrustTest" time="0.025" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
@@ -62,7 +62,8 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.arpitsardana.GeektrustTest" name="testFileModeWithInvalidFile" time="0.008"/>
+  <testcase classname="com.arpitsardana.GeektrustTest" name="testFileModeWithInvalidFile" time="0.015"/>
   <testcase classname="com.arpitsardana.GeektrustTest" name="testInvalidMode" time="0.001"/>
-  <testcase classname="com.arpitsardana.GeektrustTest" name="testFileMode" time="0.006"/>
+  <testcase classname="com.arpitsardana.GeektrustTest" name="testMultiplUsersSameNameBank" time="0.007"/>
+  <testcase classname="com.arpitsardana.GeektrustTest" name="testFileMode" time="0.002"/>
 </testsuite>

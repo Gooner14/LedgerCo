@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.arpitsardana.commands.CommandExecutorFactoryTest" time="0.021" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.arpitsardana.commands.CommandExecutorFactoryTest" time="0.037" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
@@ -62,8 +62,8 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidLoanCommand" time="0.02"/>
-  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForInvalidCommand" time="0"/>
-  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidBalanceCommand" time="0.001"/>
-  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidPaymentCommand" time="0"/>
+  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidLoanCommand" time="0.035"/>
+  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForInvalidCommand" time="0.001"/>
+  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidBalanceCommand" time="0"/>
+  <testcase classname="com.arpitsardana.commands.CommandExecutorFactoryTest" name="testFetchingExecutorForValidPaymentCommand" time="0.001"/>
 </testsuite>
